@@ -1,0 +1,36 @@
+:root {
+  --pale: #f7b500;
+  --paleTransparent: rgb(247, 181, 0, 0.1);
+  --dark: #004445;
+  --darkTransparent: rgb(0, 68, 69, 0.3);
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* line-height: 1.5;
+  font-weight: 400; */
+}
+
+
+* {
+  color: var(--pale);
+  background-color: var(--dark);
+  border: solid 2px var(--paleTransparent);
+  padding: 0;
+  margin: 0 !important;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.grid-container {
+  display: grid;
+}
